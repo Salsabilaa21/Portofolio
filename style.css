@@ -1,0 +1,170 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+header .nav-links li {
+    margin: 0 1rem;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+header .nav-links a:hover {
+    color: #ff6347;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: linear-gradient(to bottom, #333, #444);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .cta-btn {
+    padding: 0.8rem 2rem;
+    background: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero .cta-btn:hover {
+    background: #e55342;
+}
+
+/* About Section */
+#about {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+}
+
+#about .about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#about img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+#about .about-text {
+    text-align: left;
+}
+
+/* Skills Section */
+#skills {
+    padding: 2rem 1rem;
+    background: #eee;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.skill {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Projects Section */
+#projects {
+    padding: 2rem 1rem;
+    background: #f9f9f9;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+    padding: 2rem 1rem;
+    background: #fff;
+}
+
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.testimonial {
+    background: #f4f4f4;
+    padding: 1rem;
+    border-left: 5px solid #ff6347;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem 1rem;
+    background: #f4f4f4;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+}@
